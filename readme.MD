@@ -1,19 +1,19 @@
-#ÉÁÑ¶WindowsµÇÂ¼Æ÷£¨for HDU£©
+#é—ªè®¯Windowsç™»å½•å™¨ï¼ˆfor HDUï¼‰
 
-##×é¼þ
-* login.py µÇÂ½Ö÷³ÌÐò£¬Ö´ÐÐ¼ÓÃÜÕË»§ÃûÒÔ¼°µÇÂ½³ÌÐòµ÷ÓÃ
-* createADSL.exe µÇÂ½Ö÷³ÌÐò£¬Ö´ÐÐrasdialµÇÂ½ Ö´ÐÐ²ÎÊý createADSL.exe ['pin'] ['username'] ['password'] ['linkname']
-* singleNet.conf ÅäÖÃÎÄ¼þ£¬ÔÚÀïÃæÅäÖÃÐèÒªµÇÂ½µÄÕËºÅÃÜÂë
+##ç»„ä»¶
+* login.py ç™»é™†ä¸»ç¨‹åºï¼Œæ‰§è¡ŒåŠ å¯†è´¦æˆ·åä»¥åŠç™»é™†ç¨‹åºè°ƒç”¨
+* createADSL.exe ç™»é™†ä¸»ç¨‹åºï¼Œæ‰§è¡Œrasdialç™»é™† æ‰§è¡Œå‚æ•° createADSL.exe ['pin'] ['username'] ['password'] ['linkname']
+* singleNet.conf é…ç½®æ–‡ä»¶ï¼Œåœ¨é‡Œé¢é…ç½®éœ€è¦ç™»é™†çš„è´¦å·å¯†ç 
 
-##¿ª·¢ÓïÑÔÓë¹±Ï×´úÂë
+##å¼€å‘è¯­è¨€ä¸Žè´¡çŒ®ä»£ç 
 * c
-* python 3.4
-* ¹±Ï×´úÂëÊ±ÇëÎñ±Ø×¢Ã÷ÔÚºÎ´¦×ö³öµÄÐÞ¸ÄÒÔ¼°ÐÞ¸ÄÄÚÈÝ
+* python 2.7
+* è´¡çŒ®ä»£ç æ—¶è¯·åŠ¡å¿…æ³¨æ˜Žåœ¨ä½•å¤„åšå‡ºçš„ä¿®æ”¹ä»¥åŠä¿®æ”¹å†…å®¹
 
-##ÓÃ·¨
-* ÍøÂç¹²ÏíÖÐÐÄÐÂ½¨¿ÕÁ¬½Ó(ÈÎÒâÃû×Ö)
-* ½«¸ÃÁ¬½ÓÃû×ÖÓëµÇÂ¼ÕËºÅÃÜÂëÒ»ÆðÌîÈësingleNet.confÖÐ
-* Ö´ÐÐpython login.py
-* µÇÂ½³É¹¦
+##ç”¨æ³•
+* ç½‘ç»œå…±äº«ä¸­å¿ƒæ–°å»ºç©ºè¿žæŽ¥(ä»»æ„åå­—)
+* å°†è¯¥è¿žæŽ¥åå­—ä¸Žç™»å½•è´¦å·å¯†ç ä¸€èµ·å¡«å…¥singleNet.confä¸­
+* æ‰§è¡Œpython login.py
+* ç™»é™†æˆåŠŸ
 
 
