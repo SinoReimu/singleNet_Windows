@@ -1,19 +1,17 @@
-#闪讯Windows登录器（for HDU）
+#��ѶWindows��¼����for HDU��
 
-##组件
-* login.py 登陆主程序，执行加密账户名以及登陆程序调用
-* createADSL.exe 登陆主程序，执行rasdial登陆 执行参数 createADSL.exe ['pin'] ['username'] ['password'] ['linkname']
-* singleNet.conf 配置文件，在里面配置需要登陆的账号密码
+##���
+* login.py ��½������ִ�м����˻����Լ���½�������
+* createADSL.exe ��½������ִ��rasdial��½ ִ�в��� createADSL.exe ['pin'] ['username'] ['password'] ['linkname']
+* singleNet.conf �����ļ���������������Ҫ��½���˺�����
 
-##开发语言与贡献代码
+##���������빱�״���
 * c
 * python 2.7
-* 贡献代码时请务必注明在何处做出的修改以及修改内容
+* ���״���ʱ�����ע���ںδ��������޸��Լ��޸�����
 
-##用法
-* 网络共享中心新建空连接(任意名字)
-* 将该连接名字与登录账号密码一起填入singleNet.conf中
-* 执行python login.py
-* 登陆成功
+##�÷�
+* ִ��python login.py
+* ��½�ɹ�
 
 

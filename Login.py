@@ -6,11 +6,17 @@ import struct
 import hashlib
 import sys
 import os
+import time
 import ConfigParser
 
 # copy from https://github.com/nowind/sx_pi/
 # changed by Hakurei Sino
 
+def newRas():
+     print("Build the Dial Now")
+     os.system("newDial.vbs")
+     time.sleep(2)
+     
 def cur_file_dir():
      path = sys.path[0]
      if os.path.isdir(path):
@@ -58,7 +64,13 @@ if __name__ == '__main__':
      cf.read("singleNet.conf")
      mUsername = cf.get("config", "username")
      mPassword = cf.get("config", "password")
-     dname = cf.get("config", "dname")
+     
+     if not cf.has_option("config", "built"):
+          newRas()
+          cf.set("config", "built", "1")
+          f = open('singleNet.conf','w')
+          cf.write(f)
+          
      print("will do login for account:" + mUsername)
-     calc_pin(mUsername, mPassword, dname)
+     calc_pin(mUsername, mPassword, "HSingleNet")
      pass
